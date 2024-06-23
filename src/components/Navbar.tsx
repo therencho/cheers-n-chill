@@ -3,7 +3,6 @@
 import { FC, useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { lato } from "@/lib/fonts";
 
 interface NavBarProps {
   className?: string;
@@ -22,16 +21,9 @@ const NavBar: FC<NavBarProps> = () => {
       <nav className="relative bg-primary shadow ">
         <div className="w-full max-w-screen-xl px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
           <div className="flex items-center justify-between">
-            {/* <a href="#">
-              <Image
-                className="w-auto h-6 sm:h-7"
-                src="https://merakiui.com/images/full-logo.svg"
-                alt=""
-                width={100}
-                height={100}
-              />
-            </a> */}
-            <div className={`text-2xl font-playfair `}>Cheers & Chill</div>
+            <Link href={"/"} className={`text-2xl font-playfair `}>
+              Cheers & Chill
+            </Link>
 
             <div className="flex md:hidden">
               <button

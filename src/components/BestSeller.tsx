@@ -9,6 +9,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import Link from "next/link";
 
 interface BestSellerProps {}
 
@@ -24,7 +25,10 @@ const BestSeller: FC<BestSellerProps> = ({}) => {
               Best Seller
             </p>
           </div>
-          <div className="flex flex-row items-center justify-start gap-1 text-center text-[1.125rem] text-secondary font-in">
+          <Link
+            href={"/shop"}
+            className="flex flex-row items-center justify-start gap-1 text-center text-[1.125rem] text-secondary font-in"
+          >
             <b className="flex-1 relative leading-[1.969rem] font-lato capitalize">
               All natural Wines
             </b>
@@ -34,7 +38,7 @@ const BestSeller: FC<BestSellerProps> = ({}) => {
                 <div className="absolute top-[-0.009rem] left-[0.899rem] rounded-12xs box-border w-[0.675rem] h-[0.688rem] [transform:_rotate(43.99deg)] [transform-origin:0_0] z-[1] border-t-[2px] border-solid border-secondary border-r-[2px]" />
               </div>
             </div>
-          </div>
+          </Link>
         </div>
         <Carousel
           className="w-full mt-20 flex justify-center items-center h-full"
