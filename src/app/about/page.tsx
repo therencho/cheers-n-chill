@@ -16,30 +16,27 @@ const page = () => {
           <div className="grid items-center grid-cols-1 md:grid-cols-2">
             <div className=" text-center md:text-start">
               <h2 className="text-3xl font-playfair leading-tight text-black  sm:text-4xl lg:text-5xl">
-                Hey 👋 I am
+                Cheers to Quality,🍻
                 <br className="block sm:hidden" />
-                Jenny Carter
+                Community, and the Art of the Sip
               </h2>
               <p className="max-w-lg mt-3 text-xl font-lato leading-relaxed text-gray-600  md:mt-8">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
+                At Cheers-n-Chill, we're passionate about elevating your
+                beverage experience in Dubai. We're not just a liquor store,
+                we're a curated haven for those who appreciate the finer things
+                in life. We source premium beverages from around the world,
+                offering a selection that goes beyond the mainstream. Whether
+                you're a seasoned connoisseur or a curious explorer, our
+                knowledgeable staff is here to guide you on your flavor journey.
               </p>
 
               <p className="mt-4 text-xl text-gray-600 dark:text-gray-300 font-lato md:mt-8">
                 <span className="relative inline-block">
                   <span className="absolute inline-block w-full bottom-0.5 h-2 bg-yellow-300 dark:bg-gray-900"></span>
-                  <span className="relative"> Have a question? </span>
+                  <span className="relative"> Uncork your adventure. </span>
                 </span>
                 <br className="block sm:hidden" />
-                Ask me on{" "}
-                <a
-                  href="#"
-                  title=""
-                  className="transition-all duration-200 text-sky-500 dark:text-sky-400 hover:text-sky-600 dark:hover:text-sky-500 hover:underline"
-                >
-                  Twitter
-                </a>
+                Cheers!!
               </p>
             </div>
 
@@ -83,15 +80,18 @@ const page = () => {
 
               <div className="space-y-8">
                 <p className="text-base sm:leading-relaxed md:text-2xl">
-                  Hi, I&apos;m John. I&apos;m a 35-year-old software engineer
-                  with a passion for creating innovative solutions. I graduated
-                  with a degree in Computer Science from a prestigious
-                  university and have been working in the tech industry for over
-                  a decade. Throughout my career, I have gained extensive
-                  experience in programming languages like Python, Java, and
-                  C++. I thrive in challenging environments and enjoy
-                  collaborating with teams to develop cutting-edge software
-                  applications.
+                  We weren't just opening another liquor store in Dubai, that
+                  much was clear from the start. We dreamt of a place that
+                  crackled with energy, a haven for those who savor the finer
+                  things in life a well-crafted spirit, a perfectly paired
+                  wine, a cold beer that hits the spot. Cheers-n-Chill, we
+                  envisioned it as a launchpad for flavor exploration, a place
+                  where folks could lose themselves in a world of new tastes and
+                  connect with others who shared the passion. From the
+                  meticulously curated shelves to the friendly faces behind the
+                  counter, it's all about bringing that vision to life. So,
+                  raise a glass with us, and let's embark on this delicious
+                  adventure together!
                 </p>
 
                 <footer className="flex items-center space-x-4 md:space-x-0">
@@ -99,7 +99,7 @@ const page = () => {
                     className="w-12 h-12 rounded-full md:hidden"
                     src="https://randomuser.me/api/portraits/men/68.jpg"
                   />
-                  <span className="font-bold text-lg">John doe</span>
+                  <span className="font-bold text-lg">Founders</span>
                 </footer>
               </div>
             </article>

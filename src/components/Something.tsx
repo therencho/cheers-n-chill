@@ -40,20 +40,28 @@ const Something: FC<SomethingProps> = ({}) => {
           <div className="w-full px-4 lg:w-1/2 xl:w-5/12 font-lato">
             <div className="mt-10 lg:mt-0">
               <span className="block mb-4 text-lg text-secondary">
-                Why Choose Us
+                Explore & Discover
               </span>
               <h2 className="mb-5 text-3xl font-bold text-dark dark:text-white font-playfair sm:text-[40px]/[48px]">
-                Make your customers happy by giving services.
+                Your Beverage Odyssey Begins Here
               </h2>
               <p className="mb-5 text-base text-body-color dark:text-dark-6">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less.
+                Cheers-n-Chill is your one-stop shop for embarking on a flavor
+                adventure. With our diverse selection of beverages from around
+                the world, you'll discover new taste profiles, explore unique
+                varieties, and expand your appreciation for the artistry of
+                drinks. Whether you're a seasoned connoisseur or a curious
+                novice, we have something to tantalize your taste buds and
+                ignite your passion for exploring the world of beverages.
               </p>
               <p className="mb-8 text-base text-body-color dark:text-dark-6">
-                A domain name is one of the first steps to establishing your
-                brand. Secure a consistent brand image with a domain name that
-                matches your business.
+                Dive into the world of single-malt scotches, each with its own
+                distinct character shaped by the unique terroir of its origin.
+                Travel the globe through your palate with a selection of South
+                American wines, or embark on a hoppy journey with our collection
+                of craft beers from independent brewers around the world.
+                Cheers-n-Chill is your passport to a world of flavor
+                possibilities..
               </p>
             </div>
           </div>
