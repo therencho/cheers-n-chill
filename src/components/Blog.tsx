@@ -5,7 +5,7 @@ import Image, { StaticImageData } from "next/image";
 interface Strategy {
   title: string;
   description: string;
-  vedarkUsage: string;
+  cheersNChillTip: string;
 }
 
 interface BlogPostProps {
@@ -54,7 +54,7 @@ const Blog: FC<BlogPostProps> = ({ content, imageUrl, author, date }) => {
                   {index + 1}. {strategy.title}
                 </h2>
                 <p>{strategy.description}</p>
-                <p className="italic">{strategy.vedarkUsage}</p>
+                <p className="italic">{strategy.cheersNChillTip}</p>
               </div>
             ))}
             <div className="bg-gray-200 rounded-lg p-6">

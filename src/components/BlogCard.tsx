@@ -25,7 +25,7 @@ const BlogCard: FC<BlogPost> = ({ content, date, id, title }) => {
           <h2 className="text-xl font-bold text-gray-900">{title}</h2>
           <p className="text-sm text-gray-500">{date}</p>
           <Button className="mt-4" variant="ghost">
-            Continue Reading →z
+            Continue Reading →
           </Button>
         </CardContent>
       </Card>
