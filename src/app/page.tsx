@@ -1,6 +1,7 @@
 import BestSeller from "@/components/BestSeller";
 import Brands from "@/components/Brands";
 import Featured from "@/components/Featured";
+
 import HomePage from "@/components/HomePage";
 import InputCollector from "@/components/InputCollector";
 import RecentProduct from "@/components/RecentProduct";
@@ -12,6 +13,7 @@ export default function Home() {
     <main className="w-full relative  bg-primary-foreground overflow-hidden flex flex-col items-start justify-start tracking-[normal]">
       <HomePage />
       <BestSeller />
+
       <Featured />
       <InputCollector />
       <RecentProduct />

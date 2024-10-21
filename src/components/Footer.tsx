@@ -1,4 +1,5 @@
 import { FC } from "react";
+import Link from "next/link";
 
 interface FooterProps {}
 
@@ -8,16 +9,9 @@ const Footer: FC<FooterProps> = ({}) => {
       <div className="mx-auto w-full max-w-screen-xl py-6 lg:py-8 mb-16 md:mb-0 px-4">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" className="flex items-center">
-              <img
-                src="https://flowbite.com/docs/images/logo.svg"
-                className="h-8 me-3"
-                alt="FlowBite Logo"
-              />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap ">
-                Flowbite
-              </span>
-            </a>
+          <Link href={"/"} className={`text-2xl font-playfair `}>
+              Cheers & Chill
+            </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
@@ -86,8 +80,8 @@ const Footer: FC<FooterProps> = ({}) => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center ">
             © 2023{" "}
-            <a href="https://flowbite.com/" className="hover:underline">
-              Flowbite™
+            <a href="/" className="hover:underline">
+              Cheers&Chills™
             </a>
             . All Rights Reserved.
           </span>
