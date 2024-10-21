@@ -7,25 +7,25 @@ const Brands: FC<BrandsProps> = ({}) => {
     <section className="w-full h-full bg-white">
       <div className=" flex items-start justify-between max-w-screen-xl mx-auto gap-[1.25rem] my-10 px-4">
         <img
-          className="h-[2.688rem] w-[14.813rem]  shrink-0 object-cover min-h-[2.688rem]"
+          className="h-[6rem] w-[14.813rem]  shrink-0 object-cover min-h-[6rem]"
           loading="lazy"
           alt=""
-          src="/logo1png@2x.png"
+          src="/Logo-1.jpg"
         />
         <img
-          className="h-[2.688rem] w-[14.813rem]  shrink-0 object-cover min-h-[2.688rem]"
+          className="h-[6rem] w-[14.813rem]  shrink-0 object-cover min-h-[6rem]"
           alt=""
-          src="/logo1png@2x.png"
+          src="/Logo-2.jpg"
         />
         <img
-          className="h-[2.688rem] w-[14.813rem]  shrink-0 object-cover min-h-[2.688rem]"
+          className="h-[6rem] w-[14.813rem]  shrink-0 object-cover min-h-[6rem]"
           alt=""
-          src="/logo1png@2x.png"
+          src="/Logo-3.jpg"
         />
         <img
-          className="h-[2.688rem] w-[14.813rem]  shrink-0 object-cover min-h-[2.688rem]"
+          className="h-[6rem] w-[14.813rem]  shrink-0 object-cover min-h-[6rem]"
           alt=""
-          src="/logo1png@2x.png"
+          src="/Logo-4.jpg"
         />
       </div>
     </section>

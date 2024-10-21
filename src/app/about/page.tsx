@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner";
 
+
 const page = () => {
   const breadcrumbItems = [
     { label: "Home", href: "/" },
@@ -21,12 +22,12 @@ const page = () => {
                 Community, and the Art of the Sip
               </h2>
               <p className="max-w-lg mt-3 text-xl font-lato leading-relaxed text-gray-600  md:mt-8">
-                At Cheers-n-Chill, we're passionate about elevating your
-                beverage experience in Dubai. We're not just a liquor store,
-                we're a curated haven for those who appreciate the finer things
+                At Cheers-n-Chill, we&apos;re passionate about elevating your
+                beverage experience in Dubai. We&apos;re not just a liquor store,
+                we&apos;re a curated haven for those who appreciate the finer things
                 in life. We source premium beverages from around the world,
                 offering a selection that goes beyond the mainstream. Whether
-                you're a seasoned connoisseur or a curious explorer, our
+                you&apos;re a seasoned connoisseur or a curious explorer, our
                 knowledgeable staff is here to guide you on your flavor journey.
               </p>
 
@@ -80,7 +81,7 @@ const page = () => {
 
               <div className="space-y-8">
                 <p className="text-base sm:leading-relaxed md:text-2xl">
-                  We weren't just opening another liquor store in Dubai, that
+                  We weren&apos;t just opening another liquor store in Dubai, that
                   much was clear from the start. We dreamt of a place that
                   crackled with energy, a haven for those who savor the finer
                   things in life a well-crafted spirit, a perfectly paired
@@ -89,8 +90,8 @@ const page = () => {
                   where folks could lose themselves in a world of new tastes and
                   connect with others who shared the passion. From the
                   meticulously curated shelves to the friendly faces behind the
-                  counter, it's all about bringing that vision to life. So,
-                  raise a glass with us, and let's embark on this delicious
+                  counter, it&apos;s all about bringing that vision to life. So,
+                  raise a glass with us, and let&apos;s embark on this delicious
                   adventure together!
                 </p>
 

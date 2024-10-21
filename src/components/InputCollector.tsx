@@ -21,7 +21,7 @@ const InputCollector: FC<InputCollectorProps> = ({}) => {
           <div className="flex items-center z-[1] ">
             <span className="w-full">
               <p className="m-0">
-                Cheers-n-Chill is more than just a liquor store; it's a
+                Cheers-n-Chill is more than just a liquor store; it&apos;s a
                 community for those who appreciate the finer things in life. We
                 host tastings, workshops, and events that bring people together
                 to celebrate the art of drinks and connect over shared passions.

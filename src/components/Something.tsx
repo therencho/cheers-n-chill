@@ -48,9 +48,9 @@ const Something: FC<SomethingProps> = ({}) => {
               <p className="mb-5 text-base text-body-color dark:text-dark-6">
                 Cheers-n-Chill is your one-stop shop for embarking on a flavor
                 adventure. With our diverse selection of beverages from around
-                the world, you'll discover new taste profiles, explore unique
+                the world, you&apos;ll discover new taste profiles, explore unique
                 varieties, and expand your appreciation for the artistry of
-                drinks. Whether you're a seasoned connoisseur or a curious
+                drinks. Whether you&apos;re a seasoned connoisseur or a curious
                 novice, we have something to tantalize your taste buds and
                 ignite your passion for exploring the world of beverages.
               </p>

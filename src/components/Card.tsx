@@ -11,7 +11,7 @@ const Card: FC<Product> = ({ id, image, name, discount, price }) => {
     >
       <div className="relative w-72 h-80 mt-2 flex justify-center items-center font-lato">
         <div className="absolute top-0 left-0 w-full flex justify-center z-10 items-center">
-          <Image
+          <img
             src={image}
             alt={name}
             width={500}
